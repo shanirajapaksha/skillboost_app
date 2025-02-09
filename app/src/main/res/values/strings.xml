@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">LearningApp</string>
+    <string name="login">Login</string>
+    <string name="username">username</string>
+    <string name="email">email</string>
+    <string name="forgot_password">forgot Password</string>
+    <string name="dont_have_an_account">Dont have an account </string>
+    <string name="signup">signup</string>
+    <string name="google">google</string>
+    <string name="facebook">facebook</string>
+    <string name="register">Register\n</string>
+    <string name="already_have_an_account">Already Have an Account</string>
+    <string name="registerRg">Register</string>
+    <string name="usernameUs">username</string>
+    <string name="emailEmail">email</string>
+    <string name="password">*****</string>
+    <string name="comformPassword">*****</string>
+    <string name="loginbtn">EDUCATION</string>
+    <string name="unlock_knowledge_and_enjoy_learning_with_us">Unlock_knowledge_and_enjoy_learning_with_us</string>
+    <string name="todo">TODO</string>
+    <string name="education">SkillBoost</string>
+    <string name="logout">Logout</string>
+    <string name="todot">TODO</string>
+    <string name="support">Support</string>
+    <string name="todoTT">TODO</string>
+    <string name="free_courses">Free Courses</string>
+    <string name="todoT">TODO</string>
+    <string name="premium_course">Premium Course</string>
+    <string name="TTT">TODO</string>
+    <string name="profile">Profile</string>
+    <string name="todoRT">TODO</string>
+    <string name="home">Home</string>
+    <string name="DS">TODO</string>
+    <string name="CV">TODO</string>
+    <string name="VB">TODO</string>
+    <string name="unlock_knowledge_and_enjoy_learning_with_uss">Unlock knowledge and enjoy learning with us!</string>
+</resources>
