@@ -99,6 +99,7 @@
         android:focusable="true"
         android:text="@string/login"
         android:textAlignment="center"
+        android:backgroundTint="@color/material_on_surface_stroke"
         android:textSize="24sp"
         android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
