@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".IndexActivity"
-    android:background="@drawable/bgimage">
+    android:background="@drawable/bb">
 
     <androidx.viewpager2.widget.ViewPager2
         android:id="@+id/viewPageOnBoarding"
@@ -36,8 +36,8 @@
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="395dp"
-        android:layout_height="267dp"
+        android:layout_width="415dp"
+        android:layout_height="263dp"
         android:layout_marginStart="400dp"
         android:layout_marginTop="530dp"
         android:layout_marginBottom="12dp"
@@ -54,10 +54,11 @@
         android:layout_width="142dp"
         android:layout_height="48dp"
         android:layout_marginTop="400dp"
-        android:background="@drawable/btn_bg"
+        android:backgroundTint="#80000000"
         android:drawablePadding="10dp"
         android:paddingStart="20dp"
         android:text="Login"
+        android:textColor="#fff"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textSize="20sp"

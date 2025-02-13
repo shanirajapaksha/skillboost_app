@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:background="@drawable/bgimage">
+    android:background="@drawable/bb">
 
 
     <TextView
@@ -15,6 +15,7 @@
         android:layout_height="54dp"
         android:autofillHints=""
         android:text="Login"
+        android:textAlignment="center"
         android:textColor="@color/colorWhite"
         android:textSize="36sp"
         android:textStyle="bold"
@@ -90,21 +91,22 @@
 
     <Button
         android:id="@+id/btnlogin"
-        android:layout_width="342dp"
+        android:layout_width="300dp"
         android:layout_height="59dp"
-        android:layout_marginStart="10dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="12dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#80000000"
         android:clickable="true"
         android:focusable="true"
         android:text="@string/login"
         android:textAlignment="center"
-        android:backgroundTint="@color/material_on_surface_stroke"
+        android:textColor="#fff"
         android:textSize="24sp"
         android:visibility="visible"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/email"
         app:layout_constraintHorizontal_bias="0.448"
-        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/email"
         app:layout_constraintTop_toBottomOf="@+id/forgotPassword"
         tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck" />
 
@@ -133,7 +135,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/signup"
-            android:textColor="#B3E5FC"
+            android:textColor="@android:color/holo_blue_dark"
             android:textSize="24sp" />
 
     </LinearLayout>
@@ -144,11 +146,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginEnd="8dp"
-        android:background="@drawable/btn_bg"
+        android:backgroundTint="#80000000"
         android:drawableLeft="@drawable/ic_google"
         android:drawablePadding="10dp"
         android:paddingStart="20dp"
         android:text="@string/google"
+        android:textColor="#fff"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -165,11 +168,12 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/btn_bg"
+        android:backgroundTint="#80000000"
         android:drawableLeft="@drawable/ic_facebook"
         android:drawablePadding="10dp"
         android:paddingStart="20dp"
         android:text="@string/facebook"
+        android:textColor="#fff"
         android:textAlignment="textStart"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="@+id/btnGoogle"

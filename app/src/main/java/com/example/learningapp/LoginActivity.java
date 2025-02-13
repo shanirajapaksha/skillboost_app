@@ -66,7 +66,7 @@ public class LoginActivity extends AppCompatActivity {
         // Hardcoded credentials check
         if (email.equals(EMAIL) && password.equals(PASSWORD)) {
             Toast.makeText(this, "Login successful!", Toast.LENGTH_SHORT).show();
-            startActivity(new Intent(LoginActivity.this, HomeActivity.class));  // Navigate to the next activity
+            startActivity(new Intent(LoginActivity.this, HomehomeActivity.class));  // Navigate to the next activity
         } else {
             Toast.makeText(this, "Invalid credentials. Please try again.", Toast.LENGTH_SHORT).show();
         }

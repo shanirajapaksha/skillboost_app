@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".RegisterActivity"
-    android:background="@drawable/bgimage">
+    android:background="@drawable/bb">
 
     <TextView
         android:id="@+id/logo"
@@ -123,15 +123,18 @@
 
     <Button
         android:id="@+id/btnRegister"
-        android:layout_width="350dp"
+        android:layout_width="300dp"
         android:layout_height="61dp"
+        android:layout_marginStart="32dp"
         android:layout_marginTop="24dp"
-        android:background="@drawable/btn_bg"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#80000000"
         android:clickable="true"
         android:focusable="true"
         android:text="@string/register"
+        android:textColor="#fff"
         android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="@+id/ConformPassword"
+        app:layout_constraintEnd_toEndOf="@+id/Username"
         app:layout_constraintStart_toStartOf="@+id/ConformPassword"
         app:layout_constraintTop_toBottomOf="@+id/ConformPassword"
         tools:ignore="VisualLintButtonSize,DuplicateSpeakableTextCheck" />
@@ -140,13 +143,75 @@
         android:id="@+id/alreadyHaveAccount"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="36dp"
         android:shadowColor="@color/colorWhite"
         android:text="@string/already_have_an_account"
         android:textColor="@color/colorWhite"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/btnRegister"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/btnRegister"
-        app:layout_constraintTop_toBottomOf="@+id/btnRegister" />
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textViewSignin"
+        android:layout_width="83dp"
+        android:layout_height="31dp"
+        android:layout_marginEnd="36dp"
+        android:text="sign in"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/alreadyHaveAccount"
+        app:layout_constraintTop_toBottomOf="@+id/btnRegister"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="100dp"
+        android:backgroundTint="#80000000"
+        android:drawableLeft="@drawable/ic_google"
+        android:drawablePadding="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/google"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnFacebook"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        app:layout_constraintVertical_bias="0.32999998"
+        tools:ignore="RtlHardcoded,RtlSymmetry,VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/btnFacebook"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="32dp"
+        android:backgroundTint="#80000000"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:drawablePadding="10dp"
+        android:paddingStart="20dp"
+        android:text="@string/facebook"
+        android:textColor="#fff"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        app:layout_constraintBottom_toBottomOf="@+id/btnGoogle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnGoogle"
+        app:layout_constraintTop_toTopOf="@+id/btnGoogle"
+        tools:ignore="RtlSymmetry,VisualLintButtonSize" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
